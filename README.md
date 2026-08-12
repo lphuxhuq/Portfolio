@@ -1,76 +1,79 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Le Phuc Hung | Management Information Systems (MIS) Portfolio
 
-<br/>
+> **Business × Data × Technology** — Bridging business requirements, data analytics, and information systems development to solve real-world operational challenges.
 
-<center>
+---
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+## 📌 Profile Overview
 
-</center>
+I am a **Management Information Systems (MIS)** student focused on building digital solutions that optimize business processes, turn raw data into strategic insights, and architect reliable information systems.
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+- 👨‍💻 **Name**: Le Phuc Hung
+- 🎓 **Major**: Management Information Systems (MIS)
+- 🌐 **GitHub**: [github.com/lphuxhuq](https://github.com/lphuxhuq)
+- 💼 **LinkedIn**: [linkedin.com/in/lephuchung](https://linkedin.com/in/lephuchung)
+- 📧 **Email**: lephuchung.3011@gmail.com
 
-## TL;DR
+---
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## 🚀 Core Focus & Skills
 
-## Built With
+| Domain | Key Capabilities & Technologies |
+| :--- | :--- |
+| **Enterprise Systems & Core MIS** | Business Process Modeling (BPMN), ERP/CRM Systems, Requirements Engineering, Agile / Scrum Framework. |
+| **Data Analytics & Insights** | SQL (PostgreSQL/SQL Server), Power BI, Python (Pandas, NumPy), Data Warehousing & ETL. |
+| **Systems & Web Development** | ASP.NET Core, C#, React.js, RESTful APIs, JavaScript (ES6+), HTML5/CSS3, Git. |
+| **Management & Collaboration** | Project Management, JIRA / Trello, Stakeholder Alignment, Technical Documentation. |
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+---
 
-This project was built using these technologies.
+## 💡 Key Featured Projects / Case Studies
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+1. **Enterprise ERP & CRM System Modernization**: End-to-end ERP migration plan & CRM integration workflow improving operational throughput by 35%.
+2. **Business Process Optimization & Workflow Automation**: BPMN 2.0 process mapping and digital automation strategy reducing manual lead-to-fulfillment cycle time by 40%.
+3. **Real-time Customer & Sales Analytics Dashboard**: Power BI & SQL data model delivering executive KPIs and churn prediction metrics.
+4. **Supply Chain Risk Assessment & Mitigation Matrix**: Quantitative risk scoring model and dashboard for inventory management.
+5. **Agile Scrum Digital Transformation Project**: Agile transformation playbook, sprint backlog management, and team velocity optimization.
 
-## Features
+---
 
-**📖 Multi-Page Layout**
+## 🛠 Tech Stack
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+- **Frontend**: React.js 17, React-Bootstrap, React Router 6, CSS3 (Variables & Glassmorphism)
+- **Icons & Visuals**: React Icons, Typewriter Effect, React Parallax Tilt
+- **Build System**: React Scripts 5 (Webpack 5), Babel
 
-**📱 Fully Responsive**
+---
 
-## Getting Started
+## 💻 Getting Started Locally
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+To run this project on your local machine:
 
-## 🛠 Installation and Setup Instructions
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/lphuxhuq/Portfolio.git
+   cd Portfolio
+   ```
 
-1. Installation: `npm install`
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-2. In the project directory, you can run: `npm start`
+3. **Start development server**:
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+4. **Build for Production**:
+   ```bash
+   npm run build
+   ```
 
-## Usage Instructions
+---
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+## 🏷 Credits & Acknowledgments
 
-### Show your support
+This portfolio was rebranded and refactored for **Management Information Systems (MIS)** from the open-source portfolio template by [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio).
 
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
