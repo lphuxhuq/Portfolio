@@ -1,7 +1,6 @@
 // src/data/profile.js
 // ============================================================
 // Central identity configuration for the portfolio.
-// Update placeholders with your real information before deploying.
 // ============================================================
 
 export const PROFILE = {
@@ -13,14 +12,15 @@ export const PROFILE = {
     "Bridging business requirements, data, and technology to build effective information systems.",
   major: "Management Information Systems",
 
-  // Social & contact — replace placeholders before deploying
+  // Social & contact links
   github: "https://github.com/lphuxhuq",
-  linkedin: "https://linkedin.com/in/[LINKEDIN_URL]",
-  email: "[EMAIL]",
+  linkedin: "https://linkedin.com/in/lephuchung",
+  email: "lephuchung.3011@gmail.com",
 
   // Education
-  university: "[UNIVERSITY_NAME]",
+  university: "Management Information Systems Major",
 
-  // Resume — place your PDF at src/Assets/resume.pdf
+  // Resume
   resumePath: "/resume.pdf",
 };
+

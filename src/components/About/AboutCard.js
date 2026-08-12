@@ -16,8 +16,7 @@ function AboutCard() {
             <span className="purple">
               Management Information Systems
             </span>{" "}
-            student at{" "}
-            <span className="purple">[UNIVERSITY_NAME]</span>.
+            student passionate about bridging business requirements and technology.
             <br />
             <br />
             Outside of studying, I enjoy activities that keep me curious and

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { PROFILE } from "../data/profile";
 
 function Footer() {
   let date = new Date();
@@ -19,7 +20,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/lphuxhuq"
+                href={PROFILE.github}
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -30,7 +31,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://linkedin.com/in/[LINKEDIN_URL]"
+                href={PROFILE.linkedin}
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

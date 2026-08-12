@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { PROFILE } from "../../data/profile";
 
 function Home() {
   return (
@@ -15,12 +16,12 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <div style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-label="Waving hand">
                   👋🏻
                 </span>
-              </h1>
+              </div>
 
               <h1 className="heading-name">
                 I'M
@@ -55,22 +56,22 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/lphuxhuq"
+                  href={PROFILE.github}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
-                  aria-label="GitHub"
+                  aria-label="GitHub Profile"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://linkedin.com/in/[LINKEDIN_URL]"
+                  href={PROFILE.linkedin}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
-                  aria-label="LinkedIn"
+                  aria-label="LinkedIn Profile"
                 >
                   <FaLinkedinIn />
                 </a>
