@@ -1,0 +1,30 @@
+/* src/styles/variables.css
+ * Design tokens for the MIS Portfolio.
+ * All components should reference these variables.
+ * Do not hardcode colours in component CSS.
+ */
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #0c0513;
+  --bg-secondary: #111118;
+  --bg-card: rgba(17, 17, 30, 0.85);
+
+  /* Text */
+  --text-primary: #f0f0f5;
+  --text-secondary: #b8b8c8;
+  --text-muted: #707085;
+
+  /* Accent (purple) — matches existing palette */
+  --accent: #c770f0;
+  --accent-dark: #9a40c0;
+  --accent-light: #d898f8;
+
+  /* Borders */
+  --border: rgba(199, 112, 240, 0.15);
+  --border-hover: rgba(199, 112, 240, 0.45);
+
+  /* Spacing */
+  --section-padding: 80px 0;
+  --section-padding-mobile: 50px 0;
+}

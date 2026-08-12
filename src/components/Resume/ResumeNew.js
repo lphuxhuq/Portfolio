@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera.pdf";
+// TODO: Replace resume.pdf with your actual resume file in src/Assets/
+// Then update this import path accordingly.
+import pdf from "../../Assets/resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -24,7 +26,9 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
+            rel="noreferrer"
             style={{ maxWidth: "250px" }}
+            aria-label="Download CV as PDF"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -42,7 +46,9 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
+            rel="noreferrer"
             style={{ maxWidth: "250px" }}
+            aria-label="Download CV as PDF"
           >
             <AiOutlineDownload />
             &nbsp;Download CV

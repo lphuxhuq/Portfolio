@@ -1,0 +1,126 @@
+/* ===================================================
+   Experience Section Styles
+   =================================================== */
+
+.experience-section {
+  padding: var(--section-padding);
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-top: 1.5rem;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    var(--accent),
+    rgba(199, 112, 240, 0.1)
+  );
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  top: 0.45rem;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg-primary);
+  box-shadow: 0 0 8px rgba(199, 112, 240, 0.5);
+}
+
+.experience-role {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.2rem;
+}
+
+.experience-company {
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin: 0 0 0.3rem;
+}
+
+.experience-meta {
+  color: var(--text-muted);
+  font-size: 0.83rem;
+  font-family: "PT Mono", monospace;
+  margin-bottom: 0.8rem;
+}
+
+.experience-overview {
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 0.8rem;
+}
+
+.experience-responsibilities {
+  color: var(--text-secondary);
+  padding-left: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.experience-responsibilities li {
+  margin-bottom: 0.35rem;
+  line-height: 1.5;
+}
+
+.experience-tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.experience-tech-tag {
+  font-size: 0.78rem;
+  padding: 0.2rem 0.65rem;
+  background: rgba(199, 112, 240, 0.07);
+  border: 1px solid rgba(199, 112, 240, 0.2);
+  border-radius: 12px;
+  color: var(--text-muted);
+}
+
+.experience-placeholder {
+  text-align: center;
+  padding: 3.5rem 2rem;
+  color: var(--text-muted);
+  border: 1px dashed rgba(199, 112, 240, 0.25);
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.experience-placeholder p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767px) {
+  .experience-section {
+    padding: var(--section-padding-mobile);
+  }
+  .experience-timeline {
+    padding-left: 1.2rem;
+  }
+}

@@ -37,8 +37,8 @@ function Techstack() {
         <div className="tech-icons-text">Javascript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <img src={Typescript} alt="TypeScript" />
+        <div className="tech-icons-text">TypeScript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Go} alt="go" />
@@ -100,7 +100,7 @@ function Techstack() {
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
+        <img src={Java} alt="Java" />
         <div className="tech-icons-text">Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -129,7 +129,7 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={AWS} alt="Postman" className="tech-icon-images" />
+        <img src={AWS} alt="AWS" className="tech-icon-images" />
         <div className="tech-icons-text">AWS</div>
       </Col>
 

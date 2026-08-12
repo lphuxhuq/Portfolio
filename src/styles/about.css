@@ -1,0 +1,99 @@
+/* ===================================================
+   About Section Styles
+   =================================================== */
+
+/* Career Focus */
+.career-focus-section {
+  padding: var(--section-padding);
+  border-top: 1px solid var(--border);
+}
+
+.career-focus-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 100%;
+  text-align: center;
+  transition: border-color 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+
+.career-focus-card:hover {
+  border-color: var(--accent);
+}
+
+.career-focus-type {
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-family: "PT Mono", monospace;
+  margin-bottom: 0.5rem;
+}
+
+.career-focus-role {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0.2rem 0;
+}
+
+/* Core Strengths */
+.core-strengths-section {
+  padding: var(--section-padding);
+  border-top: 1px solid var(--border);
+}
+
+.strength-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.75rem 1.5rem;
+  height: 100%;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+  margin-bottom: 1.5rem;
+}
+
+.strength-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.strength-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.strength-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+}
+
+.strength-desc {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Section subtitle */
+.section-title-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767px) {
+  .career-focus-section,
+  .core-strengths-section {
+    padding: var(--section-padding-mobile);
+  }
+}
